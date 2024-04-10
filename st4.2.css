@@ -1,0 +1,62 @@
+form{
+    width: 350px;
+    height: 700px;
+    border: 2px solid rgba(134, 134, 134, 0.64);
+}
+form,div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    margin: 0;
+}
+img{
+    width: 220px;
+}
+.niz{
+    border: 2px solid rgba(134, 134, 134, 0.64);
+    width: 350px;
+    height: 50px;
+}
+.osn{
+    width: 600px;
+    height: 600px;
+    margin:10px;
+}
+.nutro{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    margin:10px;
+    margin-top: 20px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+a{
+    text-decoration: 0;
+    margin: 10px;
+}
+input{
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+}
+input[type="submit"]{
+    margin-top: 15px;
+    height: 40px;
+    background: #83ccfa;
+    border:1px solid #83ccfa ;
+    border-radius: 10px;
+    color: white;
+}
+.blue{
+    color: #5208d3;
+}
+.r{
+    margin-left: 0;
+    color: #128df6;
+}
