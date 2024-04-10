@@ -1,0 +1,102 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.osn{
+    background-image: url("https://images.unsplash.com/photo-1532456745301-b2c645d8b80d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover ;
+}
+.niz, .cntr, .top{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.top{
+    justify-content: center;
+    align-items: center;
+}
+.cntr{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.93);
+
+}
+.tc{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.niz{
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.93);
+}
+.ti{
+    width: 70vw;
+    height: 40vh;
+    background: #FAF9F7;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.ttt{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+span{font-family: "KoHo", sans-serif;
+    font-weight: 400;
+}
+.ts{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.box{
+    background: rgba(83, 83, 83, 0.40);
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.vi{
+    width: 50%;
+}
+h3,h2{
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-size: 45px;
+}
+.vb{
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    width: 20vw;
+    height: 10vh;
+}
+.ii{
+    width: 90%;
+    height: 30vh;
+    margin-top: 25px;
+}
+.nb{
+    height: 10vh;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+margin-bottom: 70px;
+}
+
